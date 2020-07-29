@@ -1,0 +1,139 @@
+body{
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+}
+
+.navbar{
+    border-bottom: 3px solid #008ed6;
+    opacity: 0.8;
+}
+
+.nav-link.active{
+    color: #008ed6 !important;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#home{
+    background-image: url(home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+
+#home .dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    background-color: rgba(0,0, 0, 0.7);
+}
+
+#home .home-content{
+    padding-top: 150px;
+}
+
+#home .d-flex .fa{
+    color: #008ed6;
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#explore-main .d-flex .fa{
+    color: #fff;
+    background: #333;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#explore-main img{
+    border-radius: 30px !important;
+}
+
+#create-main .d-flex .fa{
+    color: #fff;
+    background: #333;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#create-main img{
+    border-radius: 30px !important;
+}
+
+#share-main .d-flex .fa{
+    color: #fff;
+    background: #333;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#share-main img{
+    border-radius: 30px !important;
+}
+
+@media (max-width:400px){
+    #explore-head p{
+        font-size: 1rem;
+        text-align: justify !important;
+        padding: 0px 20px !important;
+    }
+    #explore-main h1{
+        font-size: 2rem;
+        text-align: center !important;
+    }
+    #explore-main p{
+        font-size: 1rem;
+        text-align: justify !important;
+    }
+}
+
+@media (max-width:400px){
+    #create-head p{
+        font-size: 1rem;
+        text-align: justify !important;
+        padding: 0px 20px !important;
+    }
+    #create-main h1{
+        font-size: 2rem;
+        text-align: center !important;
+    }
+    #create-main p{
+        font-size: 1rem;
+        text-align: justify !important;
+    }
+}
+
+@media (max-width:400px){
+    #share-head p{
+        font-size: 1rem;
+        text-align: justify !important;
+        padding: 0px 20px !important;
+    }
+    #share-main h1{
+        font-size: 2rem;
+        text-align: center !important;
+    }
+    #share-main p{
+        font-size: 1rem;
+        text-align: justify !important;
+    }
+}
+
+@media (max-width:400px){
+    footer h3{
+        font-size: 1.3rem;
+    }
+    footer .btn{
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width:400px){
+    body .icon{
+       font-size: 1em; 
+    }
+}
